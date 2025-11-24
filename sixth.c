@@ -5,16 +5,16 @@
 int main() {
     int a, b, temp;
 
-    // Ask the user to enter two numbers
-    printf("Enter first number: ");
+    // Input two numbers
+    printf("Enter the first number (a): ");
     scanf("%d", &a);
-    printf("Enter second number: ");
+    printf("Enter the second number (b): ");
     scanf("%d", &b);
 
     // Display numbers before swapping
-    printf("Before swapping: a = %d, b = %d\n", a, b);
+    printf("\nBefore swapping: a = %d, b = %d\n", a, b);
 
-    // Swap using a third variable
+    // Swapping using a third variable
     temp = a;
     a = b;
     b = temp;
@@ -24,4 +24,7 @@ int main() {
 
     return 0;
 }
+
+
+
 
